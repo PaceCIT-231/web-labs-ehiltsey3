@@ -1,1 +1,46 @@
-/* Add your code here */
+body
+{
+    background-color: #b3e5fc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer
+{
+    background-color: #40a1eb;
+    text-align: center;
+}
+
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 65;
+}
+
+nav
+{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+em
+{
+    font-weight: 700;
+    font-style: oblique;
+}
+
+ul
+{
+    list-style-type: square;
+    background-color: #a27ff9;
+    color: #000000;
+}
+
+ol
+{
+    list-style-type: upper-roman ;
+    background-color:  #a27ff9;
+    color: #000000;
+}
