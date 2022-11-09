@@ -113,6 +113,24 @@ ol
     color: #000000;
 }
 
+/*form
+{
+    width: 100%;
+    margin: auto;
+}*/
+
+input, label
+{
+    display: inline-block;
+    width: auto;
+    margin: 2px;
+}
+
+input[type=checkbox]
+{
+    display: inline-block;
+}
+
 footer
 {
     /*background-color: #40a1eb;*/
@@ -150,7 +168,7 @@ footer
         width: 100%;
     }
 
-    nav{
+    nav li{
         width: 100%;
     }
 
@@ -163,4 +181,27 @@ footer
         bottom: 0;
         left: 10%
     }
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+thead
+{
+    background-color: rgb(110, 162, 240);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+td, th
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tbody tr:nth-of-type(even)
+{
+    background-color: rgb(182, 207, 244);
 }
